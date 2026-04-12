@@ -109,11 +109,26 @@ h1{
     padding: 5px;
     border: none;
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
     box-shadow: 3px 2px 2px rgb(188, 234, 5);
     cursor: pointer;
     font-weight: bold;
     transition: all 1s ease-in;
+}
+.button{
+    background-color: red;
+    color: #e2e2e2;
+    font-size: 20px;
+    width: 30%;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 2px rgb(68, 3, 233);
+    transition: all 2s ease-in-out;
+}
+.button:hover{
+    transform:scale(1.2);
 }
 .submit:hover{
     transform: scale(1.1);
